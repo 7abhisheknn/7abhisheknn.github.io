@@ -21,15 +21,15 @@ function populateSkills(items, id) {
 
 		let divProgress = getElement('div','progress');
 
-		let divProgressBar = document.createElement("div");
-		divProgressBar.className = "progress-bar color-" + items[i].color;
-		divProgressBar.style = "width:" + items[i].percentage + "%";
-		divProgress.append(divProgressBar);
+		// let divProgressBar = document.createElement("div");
+		// divProgressBar.className = "progress-bar color-" + items[i].color;
+		// divProgressBar.style = "width:" + items[i].percentage + "%";
+		// divProgress.append(divProgressBar);
 
 		let divProgressWrap = document.createElement("div");
 		divProgressWrap.className = "progress-wrap";
 		divProgressWrap.append(h3);
-		divProgressWrap.append(divProgress);
+		// divProgressWrap.append(divProgress);
 
 		let divAnimateBox = document.createElement("div");
 		divAnimateBox.className = "col-md-6 animate-box";

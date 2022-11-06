@@ -3,7 +3,7 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Vinay Somawat. I’m currently working as a Software Engineer at Biofourmis India specialized in JavaScript Applications. I did my undergrad in CS from NIT Warangal.",
+				"I'm Abhishek N N. I’m currently studying Computer Science and Engineering in Vellore Institute of Technology Chennai.",
 				"I'm a developer, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.",
 				"I love to read, listen to music, and travel.",
 			],

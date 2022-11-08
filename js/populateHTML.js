@@ -170,7 +170,6 @@ function populateBlogs(items, id, subid) {
 
 function populateExp_Edu(items, id) {
 	let mainContainer = document.getElementById(id);
-
 	for (let i = 0; i < items.length; i++) {
 		let spanTimelineSublabel = document.createElement("span");
 		spanTimelineSublabel.className = "timeline-sublabel";
@@ -239,7 +238,7 @@ function populateExp_Edu(items, id) {
 
 function populateLinks(items, id) {
 	let footer = document.getElementById(id);
-
+	console.log("ksj;laksjd;lsakdjf;lkasjdf;lkajsdf;ljas;dlfkjas;ldkfjsad;lfkja;lsdkfj");
 	for (let i = 0; i < items.length; i++) {
 		if (items[i].label != "copyright-text") {
 			let span = document.createElement("span");

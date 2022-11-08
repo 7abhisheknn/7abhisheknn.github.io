@@ -71,99 +71,91 @@ export default {
   projects: {
     web: [
       {
-        projectName: "Programming Diaries",
-        image: "images/programmingdiaries.png",
+        projectName: "Parking Management System",
+        image: "images/parking.png",
         summary:
-          "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-        preview: "https://programmingdiaries.herokuapp.com/",
-        techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+          "CRUD operations for customer while booking and for manager while managing customers with multiple parking places and companies.",
+        preview: "https://github.com/7abhisheknn/Parking_Management_System",
+		techStack: ["Html","Css","Php","MySql","Xampp"],
       },
       {
-        projectName: "Find Your Bank",
-        image: "images/findyourbank.png",
+        projectName: "Complaints",
+        image: "images/complaints.png",
         summary:
-          "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-        preview: "https://clever-fermi-0d5d76.netlify.app",
-        techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+          "Online System for hostel and school complaints",
+        preview: "https://github.com/7abhisheknn/",
+        techStack: ["Reactjs", "NodeJs","MongoDb","Express"],
       },
       {
         projectName: "Web Portfolio",
-        image: "images/portfolio.png",
+        image: "images/website.png",
         summary:
           "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-        preview: "https://github.com/vinaysomawat/Travographer-Portal",
-        techStack: ["HTML", "Bootstrap", "JavaScript"],
-      },
-      {
-        projectName: "Resume Builder",
-        image: "images/resume-builder.png",
-        summary:
-          "Browser based editor to build and download Resumes in a customizable templates.",
-        preview: "https://vinaysomawat.github.io/Resume-Builder",
+        preview: "https://github.com/7abhisheknn/7abhisheknn.github.io",
         techStack: ["HTML", "Bootstrap", "JavaScript"],
       },
     ],
     software: [
-      {
-        projectName: "Pizza Ordering ChatBot",
-        image: "images/pizzaorderchatbot.png",
-        summary:
-          "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-        preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-        techStack: ["Dailogflow", "Firebase"],
-      },
-      {
-        projectName: "WhatsApp-Bot",
-        image: "images/whatsappbot.jpg",
-        summary:
-          "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-        preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-        techStack: ["Selenium", "Chrome Webdriver", "Python"],
-      },
-      {
-        projectName: "Bill Generator",
-        image: "images/billgenerator.png",
-        summary:
-          "GUI to transfer data to excel sheets and generate bills on the local shops.",
-        preview: "https://github.com/vinaysomawat/Bill-Generator",
-        techStack: ["Tkinter", "Openxlpy", "Python"],
-      },
+    //   {
+    //     projectName: "Pizza Ordering ChatBot",
+    //     image: "images/pizzaorderchatbot.png",
+    //     summary:
+    //       "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+    //     preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+    //     techStack: ["Dailogflow", "Firebase"],
+    //   },
+    //   {
+    //     projectName: "WhatsApp-Bot",
+    //     image: "images/whatsappbot.jpg",
+    //     summary:
+    //       "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
+    //     preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+    //     techStack: ["Selenium", "Chrome Webdriver", "Python"],
+    //   },
+    //   {
+    //     projectName: "Bill Generator",
+    //     image: "images/billgenerator.png",
+    //     summary:
+    //       "GUI to transfer data to excel sheets and generate bills on the local shops.",
+    //     preview: "https://github.com/vinaysomawat/Bill-Generator",
+    //     techStack: ["Tkinter", "Openxlpy", "Python"],
+    //   },
     ],
     android: [
       {
-        projectName: "NITW-CSE",
-        image: "images/nitwcse.jpg",
+        projectName: "Health Assistant",
+        image: "images/health.png",
         summary:
-          "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-        preview: "https://github.com/vinaysomawat/NITW-CSE",
-        techStack: ["JAVA", "XML", "Android"],
+          "Android app to help patients and doctors with Flutter and Firebase Includes Authentication, chat, searching doctor, to do list/reminder, analysis graph and prescription",
+        preview: "https://github.com/7abhisheknn/health_assistant_app",
+        techStack: ["Flutter"],
       },
       {
-        projectName: "CareerHigh-App",
-        image: "images/carrerhigh.png",
+        projectName: "The Voice",
+        image: "images/voice.jpg",
         summary:
-          "The Application display the webpages of website careerhigh.in in android devices.",
-        preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-        techStack: ["JAVA", "XML", "Android"],
+          "Speech To Text Flutter app which recognizes & analyzes words to execute commands as a project for Android Club VIT Chennai website.",
+        preview: "https://github.com/7abhisheknn/thevoice",
+        techStack: ["Flutter"],
       },
     ],
     freelance: [
-      {
-        projectName: "SnylloAir.com",
-        image: "images/snylloair.png",
-        summary:
-          "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-        preview: "https://www.snylloair.com/",
-        techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-      },
-      {
-        projectName: "Delivery+",
-        image: "images/AM-Logo-.png",
-        summary: "Android Application to display website in android devices.",
-        preview:
-          "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-        techStack: ["Android", "JAVA", "Play Store"],
-      },
+    //   {
+    //     projectName: "SnylloAir.com",
+    //     image: "images/snylloair.png",
+    //     summary:
+    //       "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+    //     preview: "https://www.snylloair.com/",
+    //     techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+    //   },
+    //   {
+    //     projectName: "Delivery+",
+    //     image: "images/AM-Logo-.png",
+    //     summary: "Android Application to display website in android devices.",
+    //     preview:
+    //       "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+    //     techStack: ["Android", "JAVA", "Play Store"],
+    //   },
     ],
   },
   experience: [

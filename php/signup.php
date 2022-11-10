@@ -13,11 +13,16 @@ if(isset($_POST["submit1"]))
     $pno=$_POST['pno'];  
     $uname=$_POST['uname'];
     $pword=$_POST['pwd'];
+    $data['name']=$name;
+    $data['email']=$email;
+    $data['phone']=$pno;
+    $data['uname']=$uname;
+    $data['pwd']=$pword;
   $newuser="INSERT INTO `people`(`name`, `email`, `phone`, `username`, `password`) VALUES ('$name','$email','$pno','$uname','$pword')";
     if(mysqli_query($conn,$newuser))
     {
-        
-        header('Location:../index.html');
+        print_r($data);
+        // header('Location:../index.html');
     }
     else
     {
@@ -65,7 +70,7 @@ if(isset($_POST["submit1"]))
         }
 
         else if(password.length<8){  
-          alert("Password must be at least 6 characters long.");  
+          alert("Password must be at least 8 characters long.");  
           return false;  
           }  
         }  
